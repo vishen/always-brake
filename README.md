@@ -8,9 +8,9 @@ something behaves when a program breaks.
 
 The following env can be set to control the behaviour:
 
-- TIMEOUT_SECONDS=<int>  # How long to wait before exiting
-- MESSAGE=<string>  # Message to display before exiting
-- EXIT_CODE=<int>  # Exit code to exit with
+- TIMEOUT_SECONDS=int  # How long to wait before exiting
+- MESSAGE=string  # Message to display before exiting
+- EXIT_CODE=int  # Exit code to exit with
 
 ## Running
 
