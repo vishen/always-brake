@@ -21,6 +21,15 @@ $ always-break
 exit status 1
 ```
 
+## Testing Kubernetes
+
+This will create a deployment that will continually break and get
+restarted.
+
+```
+$ kubectl run always-break --image=vishen/always-break:0.0.1 
+```
+
 ## Docker 
 
 https://cloud.docker.com/u/vishen/repository/docker/vishen/always-break
