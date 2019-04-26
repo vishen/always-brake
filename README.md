@@ -32,4 +32,4 @@ $ kubectl run always-break --image=vishen/always-break:0.0.1
 
 ## Docker 
 
-https://cloud.docker.com/u/vishen/repository/docker/vishen/always-break
+https://hub.docker.com/r/vishen/always-break
